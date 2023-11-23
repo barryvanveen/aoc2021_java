@@ -1,6 +1,5 @@
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+package net.aoc.input;
+
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class Input
 {
-    public static List<String> ReadLinesFromFile(String filename) throws IOException {
+    public static List<String> ReadLinesFromFile(String filename) {
         ArrayList<String> lines = new ArrayList<>();
 
         InputStream stream = Input.class.getResourceAsStream(filename);

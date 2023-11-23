@@ -1,3 +1,7 @@
+package net.aoc.day1;
+
+import net.aoc.input.Input;
+
 import java.util.ArrayList;
 import java.util.List;
 
