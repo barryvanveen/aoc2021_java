@@ -30,6 +30,7 @@ bin/
 
 ### AOC ###
 *.txt
+my.aoc/target/*
 
 ### IntelliJ ###
 .idea
